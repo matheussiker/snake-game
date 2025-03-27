@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(45, 45, 45);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.container{
+    position: absolute;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.container canvas{background-color: #000;}
+
+h1{
+ text-align: center;
+ color: #f1f1f1;
+}
